@@ -45,7 +45,6 @@ Para las pruebas y la validación del proyecto se trabajará con un grupo contro
 | **Sistema de gamificación complejo (subida de nivel de avatar, desbloqueo de accesorios, animaciones)** | Aunque es una idea atractiva para el público infantil, diseñar y programar la lógica de progresión, estados de avatar, ilustraciones y mecánicas de juego desviaría el esfuerzo del equipo del núcleo crítico del proyecto: la fiabilidad del cálculo de bolus, la correcta visualización de alimentos y la sincronización segura entre perfiles de tutor y menor. |
 
 ### Ampliaciones futuras
-
 1. **Sistema de notificaciones push y alertas en tiempo real:** Implementar notificaciones automáticas en el dispositivo del menor y del tutor mediante un servicio de mensajería (como Firebase Cloud Messaging). Permitiría avisar al niño de sus horas de medición sin depender de alarmas externas y alertaría inmediatamente al tutor si transcurre un periodo prolongado sin registros tras una comida.
 
 2. **Soporte PWA (Progressive Web App) y funcionamiento offline:** Configurar Service Workers y almacenamiento local (IndexedDB) para que la aplicación web pueda instalarse como un icono en la pantalla de inicio del móvil y permita registrar datos sin conexión a internet. Clave para situaciones escolares o excursiones donde el niño pueda tener mala cobertura; los registros se guardan localmente y se sincronizan con MongoDB de forma automática al recuperar la conexión.
