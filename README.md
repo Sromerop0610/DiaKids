@@ -1,8 +1,10 @@
 # ProyectoOptativa
 
-## Nombre del estudio
+## Nombre del estudio y frase
 
 - Equipo JASD
+
+- Aplicacion para ayudar a personas con diabtes
 
 ## Problema
 
